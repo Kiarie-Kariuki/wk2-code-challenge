@@ -13,8 +13,7 @@
   }
 
   /* Heading styles */
-  h1 {
- 
+ h1 {
 color: #666;
 font-size: 24px;
 margin-bottom: 10px;
@@ -73,13 +72,13 @@ cursor: pointer;
 }
 
 #add-animal-form {
-    margin-top: 20px;
-  }
+ margin-top: 20px;
+ }
   
-  #add-animal-form label {
-    display: block;
-    margin-bottom: 5px;
-    color: #666666;
+ #add-animal-form label {
+ display: block;
+ margin-bottom: 5px;
+  color: #666666;
   }
   
   #add-animal-form input[type="text"],
