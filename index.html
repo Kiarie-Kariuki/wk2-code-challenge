@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Flatacuties</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <h1>Flatacuties App</h1>
+  <h2>Animals</h2>
+  <ul class="animal-list">
+    <li id="1">Mr. Cute <button class="view-details">View Animal Details</button></li>
+    <li id="2">Mx. Monkey <button class="view-details">View Animal Details</button></li>
+    <li id="3">Ms. Zebra <button class="view-details">View Animal Details</button></li>
+    <li id="4">Dr. Lion <button class="view-details">View Animal Details</button></li>
+    <li id="5">Mme. Panda <button class="view-details">View Animal Details</button></li>
+  </ul>
+  <div id="animal-details">
+    <div id="votes-count"></div>
+  </div>
+
+  <div>
+  <h2>Add Animal</h2>
+  <form id="add-animal-form">
+    <label for="animal-name">Name:</label>
+    <input type="text" id="animal-name" required>
+    <label for="animal-image">Image URL:</label>
+    <input type="url" id="animal-image" required>
+    <button type="submit">Add Animal</button>
+  </form>
+</div>
+
+  <script src="index.js"></script>
 </body>
-<script scr = index.js></script>
 </html>

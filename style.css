@@ -1,0 +1,100 @@
+ /* Body background */
+ body {
+    background-color: #F2F2F2;
+  }
+
+  /* Page container */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+
+  /* Heading styles */
+  h1 {
+ 
+color: #666;
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+/* Animal list */
+.animal-list {
+list-style: none;
+padding: 0;
+margin-bottom: 30px;
+}
+
+.animal-list li {
+cursor: pointer;
+background-color: #FFF;
+padding: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Animal details */
+#animal-details {
+background-color: #FFF;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#animal-details h3 {
+color: #333;
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+#animal-details img {
+max-width: 200px;
+height: auto;
+margin-bottom: 10px;
+}
+
+#votes-count {
+font-size: 18px;
+color: #666;
+margin-bottom: 10px;
+}
+
+/* View details button */
+.view-details {
+background-color: #FFC107;
+color: #FFF;
+border: none;
+padding: 8px 16px;
+border-radius: 5px;
+cursor: pointer;
+}
+
+#add-animal-form {
+    margin-top: 20px;
+  }
+  
+  #add-animal-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666666;
+  }
+  
+  #add-animal-form input[type="text"],
+  #add-animal-form input[type="url"] {
+    width: 300px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #CCCCCC;
+  }
+  
+  #add-animal-form button[type="submit"] {
+    background-color: #FFD700;
+    color: #333333;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
