@@ -3,7 +3,7 @@
 # Flatacuties App
 
 The Flatacuties App is a web application that allows users to view and vote for their favorite animals. Users can see the details of each animal, including its name, image, and vote count. They can also add new animals to the list.
-
+ 
 ## Features
 
 - View Animal Details: Users can click on the "View Animal Details" button to see the details of each animal, including its name, image, and vote count.
